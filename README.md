@@ -29,14 +29,14 @@ You may be needed to install some libraries.
 ## Input
 The program processes the .jpg files, which must be attached in the resources/dices/dices_all folder.
 You can also modify line 136 of DiceDetector.py to set other subfolders of resorces/dices folder, for example:
-```
+```python
 subfolders = ['dices_all/', 'dices_easy/', 'dices_medium/', 'dices_hard/', 'dices_extra_hard/']
 ```
 
 To run the program, attached pictures have to be in proper resolution. The preferable is something between 1280×720p and 1920x1080p
 
 To process more than one picture comment out/delete line 141:
-```
+```python
 #break # only the first picture
 ```
 
