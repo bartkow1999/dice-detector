@@ -27,7 +27,7 @@ python DiceDetector.py
 You may be needed to install some libraries.
 
 ## Input
-The program processes the .jpg file, which must be attached in the resources/dices/dices_all folder.
+The program processes the .jpg files, which must be attached in the resources/dices/dices_all folder.
 You can also modify line 136 of DiceDetector.py to set other subfolders of resorces/dices folder, for example:
 ```
 subfolders = ['dices_all/', 'dices_easy/', 'dices_medium/', 'dices_hard/', 'dices_extra_hard/']
